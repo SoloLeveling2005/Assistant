@@ -1,3 +1,5 @@
+import time
+
 from plyer import notification
 
 
@@ -8,12 +10,15 @@ class WindowNotification:
         self.welcome_title = ""
         self.push(message=self.welcome_message, title=self.welcome_title)
 
-    def push(self, title: str, message: str, timeout: int = 1):
+    def push(self, title: str, message: str, timeout: int = 3):
         # Отправка уведомления
         notification.notify(
             title=title,
             message=message,
-            app_name=self.core.name,
+            # app_name=self.core.name,
             # app_icon=self.core.BASE_DIR + "\\Core\\assets\\logo.ico",
             timeout=timeout,
         )
+
+
+

@@ -1,0 +1,263 @@
+<mxfile host="Electron" modified="2023-07-09T17:37:46.401Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.1 Chrome/112.0.5615.204 Electron/24.6.0 Safari/537.36" etag="Hw3T1dp4eRzh-dMSpQWB" version="21.5.1" type="device">
+  <diagram name="Page-1" id="KIDx32Vuderqsv-V7Prp">
+    <mxGraphModel dx="893" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JYxgUyHQErguSBvo1FcP-5" value="&lt;p style=&quot;line-height: 130%;&quot;&gt;Ядро - это центральный компонент программы, к которой подключаются различные модули, такие как &quot;БД&quot; (база данных), &quot;Excel&quot; и другие.&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;spacing=5;spacingLeft=3;" parent="1" vertex="1">
+          <mxGeometry x="20" y="400" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JYxgUyHQErguSBvo1FcP-9" value="Ядро" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-1" value="Файловая структура проекта" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="334.13" y="850" width="363.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endSize=3;startSize=3;jumpSize=3;" edge="1" parent="1" source="mfHXXGDF981adOPCdROv-4" target="mfHXXGDF981adOPCdROv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startSize=3;endSize=3;" edge="1" parent="1" source="mfHXXGDF981adOPCdROv-4" target="mfHXXGDF981adOPCdROv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-4" value="Assistant" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1050" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-5" value="" style="image;html=1;image=img/lib/clip_art/general/Empty_Folder_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="192.5" y="1052.5" width="25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-6" value="Core" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1050" width="32.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-7" value="" style="image;html=1;image=img/lib/clip_art/general/Empty_Folder_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="1052.5" width="25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-8" value="Modules" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1140" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-9" value="" style="image;html=1;image=img/lib/clip_art/general/Empty_Folder_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="1142.5" width="25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endSize=3;startSize=3;jumpSize=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" target="mfHXXGDF981adOPCdROv-29" source="mfHXXGDF981adOPCdROv-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1065" as="sourcePoint" />
+            <mxPoint x="492" y="1065" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-15" value="core.py" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="484.5" y="1050" width="43" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endSize=3;startSize=3;jumpSize=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" target="mfHXXGDF981adOPCdROv-30" source="mfHXXGDF981adOPCdROv-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="402.5" y="1145" as="sourcePoint" />
+            <mxPoint x="492" y="1105" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="432.5" y="1065" />
+              <mxPoint x="432.5" y="1105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-18" value="setttings.py" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="484.5" y="1090" width="63" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-29" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="1055" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-30" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="1095" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endSize=3;startSize=3;jumpSize=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mfHXXGDF981adOPCdROv-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="527.5" y="1155" as="sourcePoint" />
+            <mxPoint x="617" y="1155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-32" value="main.py" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="644.5" y="1140" width="43" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-33" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="1145" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endSize=3;startSize=3;jumpSize=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="mfHXXGDF981adOPCdROv-36" source="mfHXXGDF981adOPCdROv-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1152.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-35" value="ModuleName" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="484.5" y="1140" width="73" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-36" value="" style="image;html=1;image=img/lib/clip_art/general/Empty_Folder_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="1142.5" width="25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endSize=3;startSize=3;jumpSize=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mfHXXGDF981adOPCdROv-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="557.5" y="1195" as="sourcePoint" />
+            <mxPoint x="617" y="1195" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="587.5" y="1155" />
+              <mxPoint x="587.5" y="1195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-38" value="other_file.py" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="644.5" y="1180" width="63" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-39" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="1185" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endSize=3;startSize=3;jumpSize=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mfHXXGDF981adOPCdROv-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="557.5" y="1235" as="sourcePoint" />
+            <mxPoint x="617" y="1235" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="587.5" y="1155" />
+              <mxPoint x="587.5" y="1235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-41" value="other_file.py" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="644.5" y="1220" width="63" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-42" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="1225" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-43" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1050" width="30" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-45" value="Системные настройки. (Ядро)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1070" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endSize=3;startSize=3;jumpSize=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mfHXXGDF981adOPCdROv-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="527.5" y="1285" as="sourcePoint" />
+            <mxPoint x="617" y="1285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-47" value="main.py" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="644.5" y="1270" width="43" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-48" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="1275" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endSize=3;startSize=3;jumpSize=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="mfHXXGDF981adOPCdROv-51" source="mfHXXGDF981adOPCdROv-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415.5" y="1285" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="432.5" y="1155" />
+              <mxPoint x="432.5" y="1285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-50" value="ModuleName" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="484.5" y="1270" width="73" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-51" value="" style="image;html=1;image=img/lib/clip_art/general/Empty_Folder_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="1272.5" width="25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endSize=3;startSize=3;jumpSize=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mfHXXGDF981adOPCdROv-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="557.5" y="1325" as="sourcePoint" />
+            <mxPoint x="617" y="1325" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="587.5" y="1285" />
+              <mxPoint x="587.5" y="1325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-53" value="other_file.py" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="644.5" y="1310" width="63" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-54" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="1315" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endSize=3;startSize=3;jumpSize=3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mfHXXGDF981adOPCdROv-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="557.5" y="1365" as="sourcePoint" />
+            <mxPoint x="617" y="1365" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="587.5" y="1285" />
+              <mxPoint x="587.5" y="1365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-56" value="other_file.py" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="644.5" y="1350" width="63" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-57" value="" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="1355" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-58" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="722.5" y="1140" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-59" value="Подключаемый модуль. (Расширение)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="752.5" y="1180" width="137.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-60" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="722.5" y="1270" width="30" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-61" value="Подключаемый модуль. (Расширение)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="752.5" y="1310" width="137.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-63" value="Корневая папка проекта (Ассистента)" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1225" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mfHXXGDF981adOPCdROv-63" target="mfHXXGDF981adOPCdROv-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="1240" as="sourcePoint" />
+            <mxPoint x="220" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-65" value="Ядро ассистента" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="930" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="mfHXXGDF981adOPCdROv-65" target="mfHXXGDF981adOPCdROv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1070" as="sourcePoint" />
+            <mxPoint x="400" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-68" value="Настройки ядра" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="509.5" y="930" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mfHXXGDF981adOPCdROv-68" target="mfHXXGDF981adOPCdROv-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="1080" as="sourcePoint" />
+            <mxPoint x="520" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-70" value="Папка которая содержит все модули (расширения). Ядро будет сканировать данную папку на наличие модулей." style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1335" width="260" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-71" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="mfHXXGDF981adOPCdROv-70" target="mfHXXGDF981adOPCdROv-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="1310" as="sourcePoint" />
+            <mxPoint x="350" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-72" value="Главный файл. От него ядро будет получать инструкции." style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="850" y="980" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-73" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mfHXXGDF981adOPCdROv-72" target="mfHXXGDF981adOPCdROv-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="1100" as="sourcePoint" />
+            <mxPoint x="750" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-92" value="Структура кода в файле" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1040" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-93" value="Ядро берет все классы (за исключением классов, которые ядро проигнорирует) и запускает их в отдельных потоках, поэтому они не могут взаимодействовать между собой." style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;spacing=5;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1075" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-95" value="Ядро" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="360" y="930" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfHXXGDF981adOPCdROv-96" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mfHXXGDF981adOPCdROv-95" target="mfHXXGDF981adOPCdROv-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="608" y="970" as="sourcePoint" />
+            <mxPoint x="542" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
