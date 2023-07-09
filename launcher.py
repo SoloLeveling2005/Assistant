@@ -12,3 +12,6 @@ window_notification = window_notification.WindowNotification(core)
 
 core.add_module(window_notification)
 
+
+while True:
+    time.sleep(1)

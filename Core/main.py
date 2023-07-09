@@ -18,6 +18,10 @@ class Core(CoreSettings):
         super().__init__()
 
     def add_module(self, module):
+        """
+        Добавление модуля.
+        """
+
         # Название модели будет зависеть от названия класса.
         module_name = module.__class__.__name__
         self.modules.append({
