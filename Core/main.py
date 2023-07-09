@@ -10,13 +10,12 @@
 import time
 import os
 
+from Core.settings import CoreSettings
 
-class Core:
+
+class Core(CoreSettings):
     def __init__(self):
-        self.username = "Solo Leveling"
-        self.lifetime = time.time()
-        self.BASE_DIR = ""
-        self.modules = []
+        super().__init__()
 
     def add_module(self, module):
         # Название модели будет зависеть от названия класса.
