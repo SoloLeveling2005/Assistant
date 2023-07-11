@@ -1,0 +1,30 @@
+:root {
+    --bg-color: #343a40;
+    --second-bg-dark: #343541;
+
+    --bg-color-first:#202123;
+    --bg-color-second:#343541;
+    --bg-color-third:#444654;
+}
+
+.search {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.assistant-messages {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 20vw;
+    padding: 10px;
+}
+
+.App {
+    background-color: var(--bg-color-third)!important;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
